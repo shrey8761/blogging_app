@@ -1,0 +1,36 @@
+http://127.0.0.1:5000
+source env/bin/activate
+#to start server
+flask run 
+
+#command to get history of shell --
+import readline; print('\n'.join([str(readline.get_history_item(i + 1)) for i in range(readline.get_current_history_length())]))
+
+echo $SHELL #to print activate SHELL
+chsh -s /bin/zsh #to change to zsh or bash
+
+python orm- sqlalchemy
+>>python
+from wsgi import *
+app.app_context().push()
+db.create_all
+
+
+
+pip3 install requests
+pip3 install SQLAlchemy Flask-SQLAlchemy
+pip3 install Flask-Migrate
+
+migration_commands.txt
+flask db init
+flask db migrate
+flask db upgrade
+
+new
+#alembic table
+
+
+
+
+
+

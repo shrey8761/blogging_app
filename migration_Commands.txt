@@ -1,0 +1,5 @@
+ ** this command should be run for the first time **
+flask db init
+ **only when ther is any change**
+flask db migrate
+flask db upgrade
