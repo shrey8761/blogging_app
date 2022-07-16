@@ -27,9 +27,11 @@ flask db migrate
 flask db upgrade
 
 new
-#alembic table
+#alembic table(save version of data, migration)
 
-
+factory setup , scaling, readablitity, maintability, data handling(errors, excel to,email send, otp send to user ) , devop(cicd) , $5(vps,linode,digital ocean,1month)
+ ,  
+dir(sha256_crypt)
 
 
 

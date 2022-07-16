@@ -7,6 +7,7 @@ from flask_jwt_extended import create_access_token
 from flask_jwt_extended import jwt_required
 
 from sqlalchemy.exc import IntegrityError
+from passlib.hash import sha256_crypt
 
 app = Flask(__name__)
 # initiating SQLAlchemy
